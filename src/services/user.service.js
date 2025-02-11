@@ -1,11 +1,12 @@
 import User from '../models/user.model';
+import bcrypt from 'bcryptjs';
 
 // Existing newUser function...
 export const newUser = async (body) => {
-  const { email, phonenumber } = body;
+  const { email} = body;
 
-  if (!email || !phonenumber) {
-    return { error: 'Email and phone number are required' };
+  if (!email ) {
+    return { error: 'Email is required' };
   }
 
   const existUser = await User.findOne({ email });
@@ -14,6 +15,11 @@ export const newUser = async (body) => {
   }
 
   try {
+    if(password){
+      const salt=await bcrypt.genSalt(10);
+      const hashedPassword=await bcrypt.hash(password,salt);
+      body.password=hashedPassword;
+    }
     const user = await User.create(body);
     return user;
   } catch (error) {
@@ -29,3 +35,4 @@ export const getUsers = async () => {
     throw new Error(error.message);
   }
 };
+

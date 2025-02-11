@@ -11,8 +11,7 @@ const database = async () => {
         : process.env.DATABASE;
 
     await mongoose.connect(DATABASE, {
-      useFindAndModify: false,
-      useCreateIndex: true,
+
       useNewUrlParser: true,
       useUnifiedTopology: true
     });
