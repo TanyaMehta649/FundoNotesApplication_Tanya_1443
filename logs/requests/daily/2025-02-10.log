@@ -1,0 +1,42 @@
+info: ::1 - - [10/Feb/2025:05:02:48 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:46:47 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:47:27 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:47:55 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:50:27 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:01:03 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:05:26 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:05:36 +0000] "GET /api/v1/users HTTP/1.1" 200 365 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:06:10 +0000] "GET /api/v1/users/67a98878c0ff916f9862fc8c HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:08:26 +0000] "GET /api/v1/users/67a98878c0ff916f9862fc8c HTTP/1.1" 200 193 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:20:44 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:24:24 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::ffff:127.0.0.1 - - [10/Feb/2025:09:31:03 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:31:32 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:32:37 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:35:02 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:36:28 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:44:35 +0000] "POST /api/v1/users HTTP/1.1" 201 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:47:26 +0000] "POST /api/v1/users HTTP/1.1" 201 97 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:48:04 +0000] "POST /api/v1/users HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:48:14 +0000] "POST /api/v1/users HTTP/1.1" 201 262 "-" "PostmanRuntime/7.43.0"
+

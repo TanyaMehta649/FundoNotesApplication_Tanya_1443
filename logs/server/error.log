@@ -1,0 +1,264 @@
+error: Could not connect to the database. con is not defined {"stack":"ReferenceError: con is not defined\n    at _callee$ (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\src\\config\\/database.js:19:5)\n    at tryCatch (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:45:16)\n    at Generator.<anonymous> (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:133:17)\n    at Generator.next (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:74:21)\n    at asyncGeneratorStep (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:17)\n    at _next (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:17:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-02-10T05:00:00.829Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T07:46:47.248Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/67a9af0fd4083a70d0aa1dc3 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-02-10T07:47:55.342Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/67a9af0fd4083a70d0aa1dc3 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-02-10T07:50:27.925Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/67a9af0fd4083a70d0aa1dc3 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-02-10T08:01:03.176Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/67a9af0fd4083a70d0aa1dc3 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-02-10T08:05:26.666Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/67a98878c0ff916f9862fc8c 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2025-02-10T08:06:10.527Z"}
+error: 
+    status - 500 
+    message - Error: Must be invoked on a Joi instance.
+    at new module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.internals.generate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:249:5)
+    at root.<computed> (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newUserValidator (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\src\validators\/user.validator.js:7:23)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:31:32.199Z"}
+error: 
+    status - 500 
+    message - Error: Must be invoked on a Joi instance.
+    at new module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.internals.generate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:249:5)
+    at root.<computed> (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newUserValidator (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\src\validators\/user.validator.js:7:23)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:32:37.381Z"}
+error: 
+    status - 500 
+    message - Error: Must be invoked on a Joi instance.
+    at new module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\error.js:23:19)
+    at module.exports (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\hoek\lib\assert.js:21:11)
+    at Object.internals.generate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:249:5)
+    at root.<computed> (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\@hapi\joi\lib\index.js:58:30)
+    at newUserValidator (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\src\validators\/user.validator.js:7:23)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:35:02.540Z"}
+error: 
+    status - 500 
+    message - ReferenceError: number is not defined
+    at newUserValidator (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\src\validators\/user.validator.js:7:45)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:36:28.966Z"}
+error: uncaughtException: User validation failed: phonenumber: Path `phonenumber` is required.
+ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.
+    at model.Document.invalidate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Mon Feb 10 2025 15:08:40 GMT+0530 (India Standard Time)","error":{"_message":"User validation failed","errors":{"phonenumber":{"kind":"required","message":"Path `phonenumber` is required.","name":"ValidatorError","path":"phonenumber","properties":{"message":"Path `phonenumber` is required.","path":"phonenumber","type":"required"}}},"message":"User validation failed: phonenumber: Path `phonenumber` is required.","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":318186.828},"process":{"argv":["node","C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\src\\index.js"],"cwd":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262430,"external":21239474,"heapTotal":46432256,"heapUsed":43343112,"rss":86683648},"pid":30412,"uid":null,"version":"v20.13.1"},"stack":"ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.\n    at model.Document.invalidate (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2788:32)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2580:17\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-02-10T09:38:40.348Z","trace":[{"column":32,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2788,"method":"invalidate","native":false},{"column":17,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2580,"method":null,"native":false},{"column":9,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js","function":null,"line":1273,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+error: uncaughtException: User validation failed: phonenumber: Path `phonenumber` is required.
+ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.
+    at model.Document.invalidate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Mon Feb 10 2025 15:11:30 GMT+0530 (India Standard Time)","error":{"_message":"User validation failed","errors":{"phonenumber":{"kind":"required","message":"Path `phonenumber` is required.","name":"ValidatorError","path":"phonenumber","properties":{"message":"Path `phonenumber` is required.","path":"phonenumber","type":"required"}}},"message":"User validation failed: phonenumber: Path `phonenumber` is required.","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":318357.171},"process":{"argv":["node","C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\src\\index.js"],"cwd":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18262430,"external":21239474,"heapTotal":45383680,"heapUsed":43815168,"rss":84598784},"pid":17480,"uid":null,"version":"v20.13.1"},"stack":"ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.\n    at model.Document.invalidate (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2788:32)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2580:17\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","timestamp":"2025-02-10T09:41:30.685Z","trace":[{"column":32,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2788,"method":"invalidate","native":false},{"column":17,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2580,"method":null,"native":false},{"column":9,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js","function":null,"line":1273,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "phonenumber" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-10T09:48:04.392Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must contain at least one special character 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-11T04:40:27.731Z"}
+error: 
+    status - 500 
+    message - ValidationError: Password must be at least 8 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2025-02-11T04:45:14.360Z"}

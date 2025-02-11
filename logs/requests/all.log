@@ -1,0 +1,82 @@
+info: ::1 - - [10/Feb/2025:05:02:48 +0000] "POST /api/v1/users HTTP/1.1" 201 193 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:46:47 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:47:27 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:47:55 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.35.0"
+
+info: ::1 - - [10/Feb/2025:07:50:27 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:01:03 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:05:26 +0000] "GET /api/v1/users/67a9af0fd4083a70d0aa1dc3 HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:05:36 +0000] "GET /api/v1/users HTTP/1.1" 200 365 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:06:10 +0000] "GET /api/v1/users/67a98878c0ff916f9862fc8c HTTP/1.1" 400 56 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:08:08:26 +0000] "GET /api/v1/users/67a98878c0ff916f9862fc8c HTTP/1.1" 200 193 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:20:44 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:24:24 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::ffff:127.0.0.1 - - [10/Feb/2025:09:31:03 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:31:32 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:32:37 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:35:02 +0000] "POST /api/v1/users HTTP/1.1" 500 69 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:36:28 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.43.0"
+
+error: uncaughtException: User validation failed: phonenumber: Path `phonenumber` is required.
+ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.
+    at model.Document.invalidate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Mon Feb 10 2025 15:08:40 GMT+0530 (India Standard Time)","error":{"_message":"User validation failed","errors":{"phonenumber":{"kind":"required","message":"Path `phonenumber` is required.","name":"ValidatorError","path":"phonenumber","properties":{"message":"Path `phonenumber` is required.","path":"phonenumber","type":"required"}}},"message":"User validation failed: phonenumber: Path `phonenumber` is required.","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":318186.843},"process":{"argv":["node","C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\src\\index.js"],"cwd":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270646,"external":21247730,"heapTotal":46432256,"heapUsed":43401592,"rss":86765568},"pid":30412,"uid":null,"version":"v20.13.1"},"stack":"ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.\n    at model.Document.invalidate (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2788:32)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2580:17\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":32,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2788,"method":"invalidate","native":false},{"column":17,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2580,"method":null,"native":false},{"column":9,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js","function":null,"line":1273,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+error: uncaughtException: User validation failed: phonenumber: Path `phonenumber` is required.
+ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.
+    at model.Document.invalidate (C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\tanya\OneDrive\Desktop\BackendProject\fundo-project\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) {"date":"Mon Feb 10 2025 15:11:30 GMT+0530 (India Standard Time)","error":{"_message":"User validation failed","errors":{"phonenumber":{"kind":"required","message":"Path `phonenumber` is required.","name":"ValidatorError","path":"phonenumber","properties":{"message":"Path `phonenumber` is required.","path":"phonenumber","type":"required"}}},"message":"User validation failed: phonenumber: Path `phonenumber` is required.","name":"ValidationError"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":318357.171},"process":{"argv":["node","C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\src\\index.js"],"cwd":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18270646,"external":21247730,"heapTotal":45383680,"heapUsed":43873624,"rss":84787200},"pid":17480,"uid":null,"version":"v20.13.1"},"stack":"ValidationError: User validation failed: phonenumber: Path `phonenumber` is required.\n    at model.Document.invalidate (C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2788:32)\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js:2580:17\n    at C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js:1273:9\n    at processTicksAndRejections (node:internal/process/task_queues:77:11)","trace":[{"column":32,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":"model.Document.invalidate","line":2788,"method":"invalidate","native":false},{"column":17,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\document.js","function":null,"line":2580,"method":null,"native":false},{"column":9,"file":"C:\\Users\\tanya\\OneDrive\\Desktop\\BackendProject\\fundo-project\\node_modules\\mongoose\\lib\\schematype.js","function":null,"line":1273,"method":null,"native":false},{"column":11,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":77,"method":null,"native":false}]}
+info: ::1 - - [10/Feb/2025:09:44:35 +0000] "POST /api/v1/users HTTP/1.1" 201 72 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:47:26 +0000] "POST /api/v1/users HTTP/1.1" 201 97 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:48:04 +0000] "POST /api/v1/users HTTP/1.1" 500 67 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [10/Feb/2025:09:48:14 +0000] "POST /api/v1/users HTTP/1.1" 201 262 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:40:27 +0000] "POST /api/v1/users HTTP/1.1" 500 87 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:40:43 +0000] "POST /api/v1/users HTTP/1.1" 201 259 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:41:16 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:43:09 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:43:16 +0000] "POST /api/v1/users HTTP/1.1" 201 82 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:44:12 +0000] "POST /api/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:45:14 +0000] "POST /api/v1/users HTTP/1.1" 500 78 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:45:25 +0000] "POST /api/v1/users HTTP/1.1" 201 82 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:47:21 +0000] "POST /api/v1/users HTTP/1.1" 201 82 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:47:34 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:49:09 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:51:08 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:04:51:11 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [11/Feb/2025:05:06:43 +0000] "POST /api/v1/users HTTP/1.1" 201 261 "-" "PostmanRuntime/7.43.0"
+
