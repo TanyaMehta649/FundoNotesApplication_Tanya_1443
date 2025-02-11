@@ -17,6 +17,29 @@ export const registerUser = async (req, res) => {
     });
   }
 };
+export const loginUser=async(req,res)=>{
+  try{
+    let data=await UserService.login(req.body);
+    if(data.error){
+      return res.status(HttpStatus.UNAUTHORIZED).json({
+        code:HttpStatus.UNAUTHORIZED,
+        message:data.error
+      });
+    }
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:'Login successful'
+    });
+  }
+  catch(error){
+    console.log(error);
+    res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({
+      code:HttpStatus.INTERNAL_SERVER_ERROR,
+      message:'Error Logging in'
+    });
+  }
+};
 
 export const getUsers = async (req, res) => {
   try {
