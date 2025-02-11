@@ -6,6 +6,6 @@ import { newUserValidator } from '../validators/user.validator';
 const router = express.Router();
 
 router.post('/',newUserValidator,userController.registerUser);
-
+router.get('/', userController.getUsers);
 
 export default router;

@@ -20,4 +20,12 @@ export const newUser = async (body) => {
     return { error: error.message };
   }
 };
-
+export const getUsers = async () => {
+  try {
+    // Find all users in the collection
+    const users = await User.find();
+    return users;
+  } catch (error) {
+    throw new Error(error.message);
+  }
+};
