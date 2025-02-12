@@ -419,3 +419,7 @@ info: ::1 - - [12/Feb/2025:05:57:47 +0000] "PUT /api/v1/notes/67ac32dc78c354ac9e
 
 info: ::1 - - [12/Feb/2025:05:58:03 +0000] "PUT /api/v1/notes/67ac32dc78c354ac9ef01d61 HTTP/1.1" 202 291 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [12/Feb/2025:06:09:33 +0000] "DELETE /api/v1/notes/67ac32dc78c354ac9ef01d61 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:09:45 +0000] "DELETE /api/v1/notes/67ac32dc78c354ac9ef01d61 HTTP/1.1" 200 293 "-" "PostmanRuntime/7.43.0"
+
