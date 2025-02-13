@@ -74,3 +74,25 @@ info: ::1 - - [12/Feb/2025:06:09:45 +0000] "DELETE /api/v1/notes/67ac32dc78c354a
 
 info: ::1 - - [12/Feb/2025:06:10:05 +0000] "DELETE /api/v1/notes/67ac32dc78c354ac9ef01d61 HTTP/1.1" 200 292 "-" "PostmanRuntime/7.43.0"
 
+info: ::1 - - [12/Feb/2025:06:20:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 80 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:20:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 553 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:27:16 +0000] "POST /api/v1/user/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:06:27:36 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:14:14 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:15:02 +0000] "PUT /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:15:43 +0000] "PUT /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:17:12 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 86 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:17:25 +0000] "GET /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:17:32 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 283 "-" "PostmanRuntime/7.43.0"
+
+info: ::1 - - [12/Feb/2025:10:17:34 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 91 "-" "PostmanRuntime/7.43.0"
+

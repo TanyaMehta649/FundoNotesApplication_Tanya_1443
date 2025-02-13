@@ -81,3 +81,39 @@ export const getUsers = async () => {
     return { error: error.message };
   }
 };
+let resetOTP;
+export const forgetPass = async ({email}) => {
+  try{
+    const user = await User.findOne({email});
+    if(!user){
+      return {message: 'not found email'};
+    }
+    const otp = Math.floor(100000 + Math.random() * 900000);
+    resetOTP=otp;
+    return{message:'otp generated' , otp};
+  }catch (error) {
+    return {error: error.message};
+  }
+}
+export const resetPass =async({email,otp,newPassword})=>{
+  try{
+    const user=await User.findOne({email});
+    if(!user){
+      return {message: 'not found email'};
+    }
+    if(resetOTP!=parseInt(otp)){
+      return {message:'invalid or expired otp'};
+    }
+    const hashedPassword=await bcrypt.hash(newPassword,10);
+    let data=await User.findOneAndUpdate(
+      {email},
+      {password:hashedPassword},
+      {new:true}
+    );
+    resetOTP=null;
+    return data;
+  }
+  catch(error){
+    return {error:error.message};
+  }
+};

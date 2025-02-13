@@ -12,6 +12,7 @@ router.post('/register', newUserValidator, userController.registerUser);
 router.post('/login', userController.login);
 
 // Get all users (Protected Route)
-router.get('', userAuth, userController.getAllUsers);
-
+router.get('/getusers', userAuth, userController.getAllUsers);
+router.post('/forget' , userController.forgetPass);
+router.put('/reset',userController.resetPass);
 export default router;

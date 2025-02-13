@@ -30,10 +30,10 @@ export const deleteNotes = async (_id) => {
     try {
       const note = await Note.findById(_id);
   
-      // Use ternary operator to toggle isTrash field
+    
       const data = await Note.findByIdAndUpdate(
         _id,
-        { isTrash: note.isTrash ? false : true }, // Toggle the isTrash value
+        { isTrash: note.isTrash ? false : true }, 
         { new: true }
       );
   
@@ -42,3 +42,4 @@ export const deleteNotes = async (_id) => {
       return { error: error.message };
     }
   };
+  

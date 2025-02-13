@@ -52,3 +52,39 @@ export const login = async (req, res) => {
     });
   }
 };
+export const forgetPass = async (req, res) => {
+  try {
+    let data = await UserService.forgetPass(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'otp generated'
+    });
+  } catch (error) {
+    console.log(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: 'Error in generating'
+    });
+  }
+};
+export const resetPass=async(req,res)=>{
+  try{
+    let data=await UserService.resetPass(req.body);
+    res.status(HttpStatus.OK).json({
+      code:HttpStatus.OK,
+      data:data,
+      message:data.message
+    });
+
+  }
+  catch(error){
+    console.log(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code:HttpStatus.BAD_REQUEST,
+      message:'Error in reset'
+    });
+    
+
+  }
+}
